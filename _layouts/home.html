@@ -11,7 +11,7 @@ layout: default
     <p class="home-sub-heading">{{- site.description | escape -}}</p>
   </div>
 
-  {%- if site.posts.size > 0 -%}
+  <!-- {%- if site.posts.size > 0 -%}
   <ul class="post-list">
       {% for post in site.posts  %}
       {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -43,5 +43,18 @@ layout: default
       {% endif %}
   {% endfor %}
   </ul>
-  {%- endif -%}
+  {%- endif -%} -->
+  <ul class="post-list">
+    <h2 class="post-year">1장 컴퓨터 비전과 영상의 이해</h2>
+    <ul>
+      <li><a class="black-link post-link-layout" href="{{ site.baseurl }}/docs/chapter01/0">0. 프롤로그 (Prolog)</a></li>
+      <li><a href="{{ site.baseurl }}/docs/chapter01/1">1. 예제 : 다항식 커브 피팅 (Example: Polynomial Curve Fitting)</a></li>
+      <li><a href="{{ site.baseurl }}/docs/chapter01/2">2. 확률 이론 (Probability Theory)</a></li>
+      <li><a href="{{ site.baseurl }}/docs/chapter01/3">3. 모델 선택 (Model Selection)</a></li>
+      <li><a href="{{ site.baseurl }}/docs/chapter01/4">4. 차원의 저주 (The Curse of Dimension)</a></li>
+      <li><a href="{{ site.baseurl }}/docs/chapter01/5">5. 결정 이론 (Decision Theory)</a></li>
+      <li><a href="{{ site.baseurl }}/docs/chapter01/6">6. 정보 이론 (Information Theory)</a></li>
+    </ul>
+  </ul>
+  
 </div>
