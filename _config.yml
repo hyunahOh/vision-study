@@ -1,9 +1,9 @@
-title: Moving # The title of the blog
-author: Hyunah Oh # Your name 
-email: dowkkr94@gmail.com # your email shown in the footer
+title: 컴퓨터 비전과 머신 러닝 스터디 # The title of the blog
+author: 오현아 / 김주은 / 허지현 # Your name 
+email: iamhaoh@gmail.com / rlawndms222@naver.com / huhji.elha@gmail.com # your email shown in the footer
 url: https://hyunahoh.github.io/vision-study/ # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:"
-  A clean and minimalist theme for Jekyll.
+  [OpenCV4로 배우는 컴퓨터 비전과 머신 러닝] 책으로 진행하는 스터디의 자료를 모아두는 곳입니다.
 favicon: "./favicon.ico" # set the favicon of the site 
 
 show_excerpts: false # set to true to show excerpts on the homepage
@@ -43,7 +43,7 @@ moving:
     #   instance: 
 
 # Build settings
-theme: moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
+# theme: moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
 
 plugins:
   - jekyll-feed
